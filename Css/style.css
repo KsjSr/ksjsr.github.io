@@ -411,4 +411,7 @@ h1.contacth1 {
 #analysisimg{
     cursor: zoom-in;
 }
+.topvideos{
+    flex-direction: row;
+}
 
