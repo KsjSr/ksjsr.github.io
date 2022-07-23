@@ -77,6 +77,16 @@
     <img src="img/ytanalysic3.png" alt="" id="analysisimg">
   </div>
  </div>
+ <div class="secright secleft topvideos ">
+  <div class="paras secleftparas" id="lefttxt2">
+    <p class="headline bigtext">Our Top Videos</p>
+    <p class="normaltxt"> We get more than what we expected from our top videos Our most viewed video is has got <b> 400k+</b> views in less than six months. We another videos that made us happy with a big number of view. Keep supporting us and we won't make you disappointed </p>
+  </div>
+  <div class="img analysis" id="anadiv">
+    <img src="img/most-viewed.PNG" alt="" id="most-viewed">
+  </div>
+ </div>
+</section>
 </section>
  
 <section class="categories" id="categories">
@@ -153,9 +163,15 @@
     nav.classList.toggle('navfull')
   })
 let analysisimg = document.getElementById('analysisimg')
+let mostviewed = document.getElementById('most-viewed')
 analysisimg.addEventListener("click",()=>{
   analysisimg.classList.toggle('fullimg')
 document.getElementById('lefttxt').classList.toggle('zeroimg')
+
+})
+mostviewed.addEventListener("click",()=>{
+  mostviewed.classList.toggle('fullimg')
+document.getElementById('lefttxt2').classList.toggle('zeroimg')
 
 })
 </script>
